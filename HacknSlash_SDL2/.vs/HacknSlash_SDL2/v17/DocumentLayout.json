@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GameDevelopment\\Cpp\\sdl2-cpp-games\\HacknSlash_SDL2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FB11B6-6E66-4A0E-BBA0-C7F52ABB453D}|HacknSlash_SDL2\\HacknSlash_SDL2.vcxproj|D:\\GameDevelopment\\Cpp\\sdl2-cpp-games\\HacknSlash_SDL2\\HacknSlash_SDL2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FB11B6-6E66-4A0E-BBA0-C7F52ABB453D}|HacknSlash_SDL2\\HacknSlash_SDL2.vcxproj|solutionrelative:HacknSlash_SDL2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\GameDevelopment\\Cpp\\sdl2-cpp-games\\HacknSlash_SDL2\\HacknSlash_SDL2\\main.cpp",
+              "RelativeDocumentMoniker": "HacknSlash_SDL2\\main.cpp",
+              "ToolTip": "D:\\GameDevelopment\\Cpp\\sdl2-cpp-games\\HacknSlash_SDL2\\HacknSlash_SDL2\\main.cpp",
+              "RelativeToolTip": "HacknSlash_SDL2\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-20T09:39:44.013Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
