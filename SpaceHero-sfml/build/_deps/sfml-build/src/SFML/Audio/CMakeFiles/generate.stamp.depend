@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindOpenAL.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageMessage.cmake
+D:/GameDevelopment/Cpp/SpaceHero/build/_deps/sfml-src/cmake/Modules/FindFLAC.cmake
+D:/GameDevelopment/Cpp/SpaceHero/build/_deps/sfml-src/cmake/Modules/FindVorbis.cmake
+D:/GameDevelopment/Cpp/SpaceHero/build/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt

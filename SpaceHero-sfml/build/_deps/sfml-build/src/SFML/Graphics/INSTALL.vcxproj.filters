@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\GameDevelopment\Cpp\SpaceHero\build\CMakeFiles\ce1cb7bb8d9c7dbe360740630ae6c05e\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9545F431-6966-3BA8-AAC0-263499966B33}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

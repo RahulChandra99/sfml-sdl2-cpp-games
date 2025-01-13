@@ -1,0 +1,30 @@
+﻿  Building Custom Rule D:/GameDevelopment/Cpp/SpaceHero/build/_deps/sfml-src/src/SFML/Window/CMakeLists.txt
+  Clipboard.cpp
+  Context.cpp
+  Cursor.cpp
+  GlContext.cpp
+  GlResource.cpp
+  Joystick.cpp
+  JoystickManager.cpp
+  Keyboard.cpp
+  Mouse.cpp
+  Touch.cpp
+  Sensor.cpp
+  SensorManager.cpp
+  VideoMode.cpp
+  Window.cpp
+  WindowImpl.cpp
+  CursorImpl.cpp
+  ClipboardImpl.cpp
+  WglContext.cpp
+  WglExtensions.cpp
+  InputImpl.cpp
+  Generating Code...
+  Compiling...
+  JoystickImpl.cpp
+  SensorImpl.cpp
+  VideoModeImpl.cpp
+  WindowImplWin32.cpp
+  Generating Code...
+     Creating library D:/GameDevelopment/Cpp/SpaceHero/build/_deps/sfml-build/lib/Debug/sfml-window-d.lib and object D:/GameDevelopment/Cpp/SpaceHero/build/_deps/sfml-build/lib/Debug/sfml-window-d.exp
+  sfml-window.vcxproj -> D:\GameDevelopment\Cpp\SpaceHero\build\_deps\sfml-build\lib\Debug\sfml-window-d-2.dll

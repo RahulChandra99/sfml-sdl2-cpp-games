@@ -1,0 +1,20 @@
+﻿  Building Custom Rule D:/GameDevelopment/Cpp/SpaceHero/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt
+  Clock.cpp
+  Err.cpp
+  Lock.cpp
+  Mutex.cpp
+  Sleep.cpp
+  String.cpp
+  Thread.cpp
+  ThreadLocal.cpp
+  Time.cpp
+  FileInputStream.cpp
+  MemoryInputStream.cpp
+  ClockImpl.cpp
+  MutexImpl.cpp
+  SleepImpl.cpp
+  ThreadImpl.cpp
+  ThreadLocalImpl.cpp
+  Generating Code...
+     Creating library D:/GameDevelopment/Cpp/SpaceHero/build/_deps/sfml-build/lib/Debug/sfml-system-d.lib and object D:/GameDevelopment/Cpp/SpaceHero/build/_deps/sfml-build/lib/Debug/sfml-system-d.exp
+  sfml-system.vcxproj -> D:\GameDevelopment\Cpp\SpaceHero\build\_deps\sfml-build\lib\Debug\sfml-system-d-2.dll

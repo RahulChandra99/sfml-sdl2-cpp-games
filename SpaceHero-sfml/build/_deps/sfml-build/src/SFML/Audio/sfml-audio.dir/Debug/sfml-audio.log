@@ -1,0 +1,24 @@
+﻿  Building Custom Rule D:/GameDevelopment/Cpp/SpaceHero/build/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt
+  ALCheck.cpp
+  AlResource.cpp
+  AudioDevice.cpp
+  Listener.cpp
+  Music.cpp
+  Sound.cpp
+  SoundBuffer.cpp
+  SoundBufferRecorder.cpp
+  InputSoundFile.cpp
+  OutputSoundFile.cpp
+  SoundRecorder.cpp
+  SoundSource.cpp
+  SoundStream.cpp
+  SoundFileFactory.cpp
+  SoundFileReaderFlac.cpp
+  SoundFileReaderOgg.cpp
+  SoundFileReaderWav.cpp
+  SoundFileWriterFlac.cpp
+  SoundFileWriterOgg.cpp
+  SoundFileWriterWav.cpp
+  Generating Code...
+     Creating library D:/GameDevelopment/Cpp/SpaceHero/build/_deps/sfml-build/lib/Debug/sfml-audio-d.lib and object D:/GameDevelopment/Cpp/SpaceHero/build/_deps/sfml-build/lib/Debug/sfml-audio-d.exp
+  sfml-audio.vcxproj -> D:\GameDevelopment\Cpp\SpaceHero\build\_deps\sfml-build\lib\Debug\sfml-audio-d-2.dll
