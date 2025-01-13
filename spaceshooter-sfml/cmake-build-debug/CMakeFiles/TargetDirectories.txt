@@ -1,3 +1,0 @@
-D:/GameDevelopment/Cpp/sfml-projects-cpp/spaceshooter-sfml/cmake-build-debug/CMakeFiles/spaceshooter_sfml.dir
-D:/GameDevelopment/Cpp/sfml-projects-cpp/spaceshooter-sfml/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/GameDevelopment/Cpp/sfml-projects-cpp/spaceshooter-sfml/cmake-build-debug/CMakeFiles/rebuild_cache.dir
