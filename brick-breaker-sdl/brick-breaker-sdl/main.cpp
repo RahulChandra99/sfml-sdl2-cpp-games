@@ -4,56 +4,41 @@
 const int WINDOW_WIDTH = 800;
 const int WINDOW_HEIGHT = 600;
 
-int main(int argc, char* argv[]) {
+int main(int argc, char* argv[])
+{
     // Initialize SDL
-    if (SDL_Init(SDL_INIT_VIDEO) < 0) {
+    if (SDL_Init(SDL_INIT_VIDEO) < 0)
+    {
         std::cerr << "SDL could not initialize! SDL_Error: " << SDL_GetError() << std::endl;
         return -1;
     }
 
     // Create a window
-    SDL_Window* window = SDL_CreateWindow("SDL2 Window",
-        SDL_WINDOWPOS_CENTERED,
-        SDL_WINDOWPOS_CENTERED,
+    SDL_Window* window = SDL_CreateWindow("Brick Breaker",
+        SDL_WINDOWPOS_UNDEFINED,
+        SDL_WINDOWPOS_UNDEFINED,
         WINDOW_WIDTH, WINDOW_HEIGHT,
         SDL_WINDOW_SHOWN);
-    if (!window) {
+
+    SDL_Renderer* renderer = SDL_CreateRenderer(window, -1, 0);
+
+    SDL_Rect ballRect = { 20,30,20,30 };
+    SDL_Surface* ball = SDL_LoadBMP("ball.bmp");
+    SDL_Texture* balltexture = SDL_CreateTextureFromSurface(renderer, ball);
+    SDL_RenderCopy(renderer, balltexture, NULL, &ballRect);
+    SDL_RenderPresent(renderer);
+
+    if (!window)
+    {
         std::cerr << "Window could not be created! SDL_Error: " << SDL_GetError() << std::endl;
         SDL_Quit();
         return -1;
     }
 
-    // Create a renderer
-    SDL_Renderer* renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
-    if (!renderer) {
-        std::cerr << "Renderer could not be created! SDL_Error: " << SDL_GetError() << std::endl;
-        SDL_DestroyWindow(window);
-        SDL_Quit();
-        return -1;
-    }
+    // Wait 5 seconds before closing
+    SDL_Delay(5000);
 
-    // Main loop
-    bool running = true;
-    SDL_Event event;
-
-    while (running) {
-        while (SDL_PollEvent(&event)) {
-            if (event.type == SDL_QUIT) {
-                running = false;
-            }
-        }
-
-        // Clear the screen with a color
-        SDL_SetRenderDrawColor(renderer, 0, 0, 255, 255); // Blue color
-        SDL_RenderClear(renderer);
-
-        // Present the backbuffer
-        SDL_RenderPresent(renderer);
-    }
-
-    // Cleanup
-    SDL_DestroyRenderer(renderer);
-    SDL_DestroyWindow(window);
+    // Destroy window and quit SDL
     SDL_Quit();
 
     return 0;
