@@ -1,2 +1,62 @@
-﻿  main.cpp
-  brick-breaker-sdl.vcxproj -> D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\x64\Debug\brick-breaker-sdl.exe
+﻿  Ball.cpp
+  Brick.cpp
+  Game.cpp
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.h(43,10): error C3646: 'ball': unknown override specifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.h(43,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.h(44,12): error C3646: 'paddle': unknown override specifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.h(44,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.h(45,17): error C2065: 'Brick': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.h(45,10): error C2923: 'std::vector': 'Brick' is not a valid template type argument for parameter '_Ty'
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.h(45,17): message : see declaration of 'Brick'
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.h(45,10): error C2976: 'std::vector': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vector(494,1): message : see declaration of 'std::vector'
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(3,104): error C2065: 'PADDLE_WIDTH': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(3,122): error C2512: 'std::vector': no appropriate default constructor available
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vector(494,1): message : see declaration of 'std::vector'
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(3,35): error C2614: 'BBGame': illegal member initialization: 'ball' is not a base or member
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(3,78): error C2614: 'BBGame': illegal member initialization: 'paddle' is not a base or member
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(5,6): error C2653: 'Game': is not a class or namespace name
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(9,5): error C2065: 'window': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(10,10): error C2065: 'window': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(12,5): error C2065: 'renderer': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(12,35): error C2065: 'window': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(13,10): error C2065: 'renderer': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(17,5): error C2065: 'bgTexture': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(17,50): error C2065: 'renderer': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(21,25): error C2065: 'BRICK_ROWS': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(22,29): error C2065: 'BRICK_COLUMNS': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(23,13): error C2065: 'bricks': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(23,41): error C2065: 'BRICK_WIDTH': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(23,65): error C2065: 'BRICK_HEIGHT': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(23,30): error C3861: 'Brick': identifier not found
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(30,6): error C2653: 'Game': is not a class or namespace name
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(33,37): error C2065: 'running': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(34,9): error C2065: 'paddle': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(38,6): error C2653: 'Game': is not a class or namespace name
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(39,5): error C2065: 'ball': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(40,5): error C2065: 'paddle': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(41,5): error C2065: 'ball': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(41,26): error C2065: 'paddle': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(41,34): error C2065: 'bricks': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(44,6): error C2653: 'Game': is not a class or namespace name
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(45,21): error C2065: 'renderer': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(46,20): error C2065: 'renderer': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(46,30): error C2065: 'bgTexture': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(48,5): error C2065: 'ball': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(48,17): error C2065: 'renderer': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(49,5): error C2065: 'paddle': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(49,19): error C2065: 'renderer': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(51,24): error C2065: 'bricks': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(51,5): error C2530: 'brick': references must be initialized
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(51,5): error C3531: 'brick': a symbol whose type contains 'auto' must have an initializer
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(51,22): error C2143: syntax error: missing ';' before ':'
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(51,30): error C2143: syntax error: missing ';' before ')'
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(51,45): error C2065: 'renderer': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(53,23): error C2065: 'renderer': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(56,6): error C2653: 'Game': is not a class or namespace name
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(57,12): error C2065: 'running': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(65,6): error C2653: 'Game': is not a class or namespace name
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(66,25): error C2065: 'renderer': undeclared identifier
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\Game.cpp(67,23): error C2065: 'window': undeclared identifier
+  Paddle.cpp
+  Generating Code...
