@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9086F673-8E73-4759-AAC6-9CE24E90803B}|brick-breaker-sdl\\brick-breaker-sdl.vcxproj|D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9086F673-8E73-4759-AAC6-9CE24E90803B}|brick-breaker-sdl\\brick-breaker-sdl.vcxproj|solutionrelative:brick-breaker-sdl\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9086F673-8E73-4759-AAC6-9CE24E90803B}|brick-breaker-sdl\\brick-breaker-sdl.vcxproj|D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\RTS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9086F673-8E73-4759-AAC6-9CE24E90803B}|brick-breaker-sdl\\brick-breaker-sdl.vcxproj|solutionrelative:brick-breaker-sdl\\RTS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9086F673-8E73-4759-AAC6-9CE24E90803B}|brick-breaker-sdl\\brick-breaker-sdl.vcxproj|D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\dfs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9086F673-8E73-4759-AAC6-9CE24E90803B}|brick-breaker-sdl\\brick-breaker-sdl.vcxproj|solutionrelative:brick-breaker-sdl\\dfs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9086F673-8E73-4759-AAC6-9CE24E90803B}|brick-breaker-sdl\\brick-breaker-sdl.vcxproj|D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9086F673-8E73-4759-AAC6-9CE24E90803B}|brick-breaker-sdl\\brick-breaker-sdl.vcxproj|solutionrelative:brick-breaker-sdl\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9086F673-8E73-4759-AAC6-9CE24E90803B}|brick-breaker-sdl\\brick-breaker-sdl.vcxproj|D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Paddle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9086F673-8E73-4759-AAC6-9CE24E90803B}|brick-breaker-sdl\\brick-breaker-sdl.vcxproj|solutionrelative:brick-breaker-sdl\\Paddle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9086F673-8E73-4759-AAC6-9CE24E90803B}|brick-breaker-sdl\\brick-breaker-sdl.vcxproj|D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Paddle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9086F673-8E73-4759-AAC6-9CE24E90803B}|brick-breaker-sdl\\brick-breaker-sdl.vcxproj|solutionrelative:brick-breaker-sdl\\Paddle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9086F673-8E73-4759-AAC6-9CE24E90803B}|brick-breaker-sdl\\brick-breaker-sdl.vcxproj|D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -15,28 +31,16 @@
       "RelativeMoniker": "D:0:0:{9086F673-8E73-4759-AAC6-9CE24E90803B}|brick-breaker-sdl\\brick-breaker-sdl.vcxproj|solutionrelative:brick-breaker-sdl\\Brick.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9086F673-8E73-4759-AAC6-9CE24E90803B}|brick-breaker-sdl\\brick-breaker-sdl.vcxproj|D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Paddle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9086F673-8E73-4759-AAC6-9CE24E90803B}|brick-breaker-sdl\\brick-breaker-sdl.vcxproj|solutionrelative:brick-breaker-sdl\\Paddle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9086F673-8E73-4759-AAC6-9CE24E90803B}|brick-breaker-sdl\\brick-breaker-sdl.vcxproj|D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Brick.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9086F673-8E73-4759-AAC6-9CE24E90803B}|brick-breaker-sdl\\brick-breaker-sdl.vcxproj|solutionrelative:brick-breaker-sdl\\Brick.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9086F673-8E73-4759-AAC6-9CE24E90803B}|brick-breaker-sdl\\brick-breaker-sdl.vcxproj|D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Ball.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9086F673-8E73-4759-AAC6-9CE24E90803B}|brick-breaker-sdl\\brick-breaker-sdl.vcxproj|solutionrelative:brick-breaker-sdl\\Ball.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9086F673-8E73-4759-AAC6-9CE24E90803B}|brick-breaker-sdl\\brick-breaker-sdl.vcxproj|D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Brick.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9086F673-8E73-4759-AAC6-9CE24E90803B}|brick-breaker-sdl\\brick-breaker-sdl.vcxproj|solutionrelative:brick-breaker-sdl\\Brick.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9086F673-8E73-4759-AAC6-9CE24E90803B}|brick-breaker-sdl\\brick-breaker-sdl.vcxproj|D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Paddle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9086F673-8E73-4759-AAC6-9CE24E90803B}|brick-breaker-sdl\\brick-breaker-sdl.vcxproj|solutionrelative:brick-breaker-sdl\\Paddle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9086F673-8E73-4759-AAC6-9CE24E90803B}|brick-breaker-sdl\\brick-breaker-sdl.vcxproj|D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Ball.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9086F673-8E73-4759-AAC6-9CE24E90803B}|brick-breaker-sdl\\brick-breaker-sdl.vcxproj|solutionrelative:brick-breaker-sdl\\Ball.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9086F673-8E73-4759-AAC6-9CE24E90803B}|brick-breaker-sdl\\brick-breaker-sdl.vcxproj|D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9086F673-8E73-4759-AAC6-9CE24E90803B}|brick-breaker-sdl\\brick-breaker-sdl.vcxproj|solutionrelative:brick-breaker-sdl\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,11 +50,96 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RTS.cpp",
+              "DocumentMoniker": "D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\RTS.cpp",
+              "RelativeDocumentMoniker": "brick-breaker-sdl\\RTS.cpp",
+              "ToolTip": "D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\RTS.cpp",
+              "RelativeToolTip": "brick-breaker-sdl\\RTS.cpp",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAqwJoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-25T19:06:42.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dfs.cpp",
+              "DocumentMoniker": "D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\dfs.cpp",
+              "RelativeDocumentMoniker": "brick-breaker-sdl\\dfs.cpp",
+              "ToolTip": "D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\dfs.cpp",
+              "RelativeToolTip": "brick-breaker-sdl\\dfs.cpp",
+              "ViewState": "AQIAAKsAAAAAAAAAAAAAALkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-25T18:50:15.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Ball.h",
+              "DocumentMoniker": "D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Ball.h",
+              "RelativeDocumentMoniker": "brick-breaker-sdl\\Ball.h",
+              "ToolTip": "D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Ball.h",
+              "RelativeToolTip": "brick-breaker-sdl\\Ball.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-21T01:12:27.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Game.h",
+              "DocumentMoniker": "D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Game.h",
+              "RelativeDocumentMoniker": "brick-breaker-sdl\\Game.h",
+              "ToolTip": "D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Game.h",
+              "RelativeToolTip": "brick-breaker-sdl\\Game.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-21T01:12:21.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Brick.cpp",
+              "DocumentMoniker": "D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Brick.cpp",
+              "RelativeDocumentMoniker": "brick-breaker-sdl\\Brick.cpp",
+              "ToolTip": "D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Brick.cpp",
+              "RelativeToolTip": "brick-breaker-sdl\\Brick.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-21T01:12:11.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Paddle.cpp",
+              "DocumentMoniker": "D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Paddle.cpp",
+              "RelativeDocumentMoniker": "brick-breaker-sdl\\Paddle.cpp",
+              "ToolTip": "D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Paddle.cpp",
+              "RelativeToolTip": "brick-breaker-sdl\\Paddle.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-21T01:12:06.526Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\main.cpp",
+              "RelativeDocumentMoniker": "brick-breaker-sdl\\main.cpp",
+              "ToolTip": "D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\main.cpp",
+              "RelativeToolTip": "brick-breaker-sdl\\main.cpp",
+              "ViewState": "AQIAAMMAAAAAAAAAAAAAANkAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-15T23:34:26.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Brick.h",
               "DocumentMoniker": "D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Brick.h",
               "RelativeDocumentMoniker": "brick-breaker-sdl\\Brick.h",
@@ -74,56 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Ball.h",
-              "DocumentMoniker": "D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Ball.h",
-              "RelativeDocumentMoniker": "brick-breaker-sdl\\Ball.h",
-              "ToolTip": "D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Ball.h",
-              "RelativeToolTip": "brick-breaker-sdl\\Ball.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-21T01:12:27.927Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Game.h",
-              "DocumentMoniker": "D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Game.h",
-              "RelativeDocumentMoniker": "brick-breaker-sdl\\Game.h",
-              "ToolTip": "D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Game.h",
-              "RelativeToolTip": "brick-breaker-sdl\\Game.h",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAqwCYAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-21T01:12:21.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Brick.cpp",
-              "DocumentMoniker": "D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Brick.cpp",
-              "RelativeDocumentMoniker": "brick-breaker-sdl\\Brick.cpp",
-              "ToolTip": "D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Brick.cpp",
-              "RelativeToolTip": "brick-breaker-sdl\\Brick.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-21T01:12:11.652Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Paddle.cpp",
-              "DocumentMoniker": "D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Paddle.cpp",
-              "RelativeDocumentMoniker": "brick-breaker-sdl\\Paddle.cpp",
-              "ToolTip": "D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Paddle.cpp",
-              "RelativeToolTip": "brick-breaker-sdl\\Paddle.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-21T01:12:06.526Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Ball.cpp",
               "DocumentMoniker": "D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Ball.cpp",
               "RelativeDocumentMoniker": "brick-breaker-sdl\\Ball.cpp",
@@ -132,37 +172,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-21T01:11:57.498Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "main.cpp",
-              "DocumentMoniker": "D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\main.cpp",
-              "RelativeDocumentMoniker": "brick-breaker-sdl\\main.cpp",
-              "ToolTip": "D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\main.cpp",
-              "RelativeToolTip": "brick-breaker-sdl\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-15T23:34:26.099Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Game.cpp",
-              "DocumentMoniker": "D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Game.cpp",
-              "RelativeDocumentMoniker": "brick-breaker-sdl\\Game.cpp",
-              "ToolTip": "D:\\GameDevelopment\\Cpp\\sfml-sdl2-cpp-games\\brick-breaker-sdl\\brick-breaker-sdl\\Game.cpp",
-              "RelativeToolTip": "brick-breaker-sdl\\Game.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-21T01:11:49.931Z",
-              "EditorCaption": ""
             }
           ]
         }
