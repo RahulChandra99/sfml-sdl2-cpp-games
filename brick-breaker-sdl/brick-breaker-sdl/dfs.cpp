@@ -15,7 +15,7 @@ struct Node {
     float gCost = FLT_MAX, hCost = 0;
     Node* parent = nullptr;
 
-    float fCost() const { return gCost + hCost; }
+    float TotalCost() const { return gCost + hCost; }
 };
 
 Node grid[ROWS][COLS];
@@ -40,11 +40,16 @@ void renderGrid() {
     for (int i = 0; i < ROWS; i++) {
         for (int j = 0; j < COLS; j++) {
             SDL_Rect cell = { j * CELL_SIZE, i * CELL_SIZE, CELL_SIZE, CELL_SIZE };
-            if (&grid[i][j] == startNode) SDL_SetRenderDrawColor(renderer, 0, 255, 0, 255);
-            else if (&grid[i][j] == endNode) SDL_SetRenderDrawColor(renderer, 255, 0, 0, 255);
-            else if (grid[i][j].isWall) SDL_SetRenderDrawColor(renderer, 50, 50, 50, 255);
-            else if (grid[i][j].visited) SDL_SetRenderDrawColor(renderer, 0, 0, 255, 255);
-            else SDL_SetRenderDrawColor(renderer, 200, 200, 200, 255);
+            if (&grid[i][j] == startNode) 
+                SDL_SetRenderDrawColor(renderer, 0, 255, 0, 255);
+            else if (&grid[i][j] == endNode) 
+                SDL_SetRenderDrawColor(renderer, 255, 0, 0, 255);
+            else if (grid[i][j].isWall)
+                SDL_SetRenderDrawColor(renderer, 50, 50, 50, 255);
+            else if (grid[i][j].visited) 
+                SDL_SetRenderDrawColor(renderer, 0, 0, 255, 255);
+            else 
+                SDL_SetRenderDrawColor(renderer, 200, 200, 200, 255);
 
             SDL_RenderFillRect(renderer, &cell);
             SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
@@ -76,7 +81,10 @@ void resetGrid() {
 bool dfs(Node* node) {
     if (!node || node->visited || node->isWall) return false;
     node->visited = true;
-    renderGrid(); SDL_Delay(30);
+
+    renderGrid(); 
+    SDL_Delay(30);
+
     if (node == endNode) return true;
 
     for (int i = 0; i < 4; i++) {
@@ -94,8 +102,12 @@ void bfs() {
     startNode->visited = true;
 
     while (!q.empty()) {
-        Node* node = q.front(); q.pop();
-        renderGrid(); SDL_Delay(30);
+        Node* node = q.front(); 
+        q.pop();
+
+        renderGrid(); 
+        SDL_Delay(30);
+
         if (node == endNode) return;
 
         for (int i = 0; i < 4; i++) {
@@ -112,8 +124,10 @@ void bfs() {
 }
 
 void dijkstra() {
-    auto cmp = [](Node* a, Node* b) { return a->gCost > b->gCost; };
-    std::priority_queue<Node*, std::vector<Node*>, decltype(cmp)> pq(cmp);
+    auto cmp = [](Node* a, Node* b) { 
+        return a->gCost > b->gCost; 
+        };
+    std::priority_queue<Node*,std::vector<Node*>, decltype(cmp)> pq(cmp);
 
     startNode->gCost = 0;
     pq.push(startNode);
@@ -121,7 +135,8 @@ void dijkstra() {
     while (!pq.empty()) {
         Node* node = pq.top(); pq.pop();
         node->visited = true;
-        renderGrid(); SDL_Delay(30);
+        renderGrid();
+        SDL_Delay(30);
         if (node == endNode) return;
 
         for (int i = 0; i < 4; i++) {
@@ -142,7 +157,9 @@ void dijkstra() {
 }
 
 void aStar() {
-    auto cmp = [](Node* a, Node* b) { return a->fCost() > b->fCost(); };
+    auto cmp = [](Node* a, Node* b) { 
+        return a->TotalCost() > b->TotalCost(); 
+        };
     std::priority_queue<Node*, std::vector<Node*>, decltype(cmp)> pq(cmp);
 
     startNode->gCost = 0;
@@ -152,7 +169,8 @@ void aStar() {
     while (!pq.empty()) {
         Node* node = pq.top(); pq.pop();
         node->visited = true;
-        renderGrid(); SDL_Delay(30);
+        renderGrid(); 
+        SDL_Delay(30);
         if (node == endNode) return;
 
         for (int i = 0; i < 4; i++) {
@@ -189,21 +207,21 @@ void runAlgorithms() {
     measure([]() { aStar(); }, "A* Algo");
 }
 
-//int main(int argc, char* argv[]) {
-//    if (!initSDL()) return -1;
-//    for (int i = 0; i < ROWS; i++)
-//        for (int j = 0; j < COLS; j++)
-//            grid[i][j] = { j, i };
-//
-//    startNode = &grid[0][0];
-//    endNode = &grid[ROWS - 1][COLS - 1];
-//
-//    renderGrid();
-//    SDL_Event event;
-//    while (SDL_WaitEvent(&event)) {
-//        if (event.type == SDL_QUIT) break;
-//        if (event.type == SDL_MOUSEBUTTONDOWN) handleMouseClick(event.button.x, event.button.y, event.button.button == SDL_BUTTON_LEFT);
-//        if (event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_SPACE) runAlgorithms();
-//    }
-//    return 0;
-//}
+int main(int argc, char* argv[]) {
+    if (!initSDL()) return -1;
+    for (int i = 0; i < ROWS; i++)
+        for (int j = 0; j < COLS; j++)
+            grid[i][j] = { j, i };
+
+    startNode = &grid[0][0];
+    endNode = &grid[ROWS - 1][COLS - 1];
+
+    renderGrid();
+    SDL_Event event;
+    while (SDL_WaitEvent(&event)) {
+        if (event.type == SDL_QUIT) break;
+        if (event.type == SDL_MOUSEBUTTONDOWN) handleMouseClick(event.button.x, event.button.y, event.button.button == SDL_BUTTON_LEFT);
+        if (event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_SPACE) runAlgorithms();
+    }
+    return 0;
+}

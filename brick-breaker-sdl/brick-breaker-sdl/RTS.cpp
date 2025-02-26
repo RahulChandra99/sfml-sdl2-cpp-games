@@ -187,16 +187,16 @@ public:
     }
 };
 
-int main(int argc, char* argv[]) {
-    Game game;
-    if (!game.Init()) return -1;
-
-    while (game.isRunning) {
-        game.HandleEvents();
-        game.Update();
-        game.Render();
-    }
-
-    game.Clean();
-    return 0;
-}
+//int main(int argc, char* argv[]) {
+//    Game game;
+//    if (!game.Init()) return -1;
+//
+//    while (game.isRunning) {
+//        game.HandleEvents();
+//        game.Update();
+//        game.Render();
+//    }
+//
+//    game.Clean();
+//    return 0;
+//}

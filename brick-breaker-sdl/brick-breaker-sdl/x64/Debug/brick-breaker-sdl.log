@@ -1,10 +1,4 @@
-﻿  RTS.cpp
-D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\RTS.cpp(15,37): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\RTS.cpp(15,48): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\RTS.cpp(156,35): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\RTS.cpp(157,35): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-  dfs.cpp
-D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\dfs.cpp(149,60): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\dfs.cpp(166,78): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-  Generating Code...
+﻿  dfs.cpp
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\dfs.cpp(162,60): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\brick-breaker-sdl\dfs.cpp(180,78): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   brick-breaker-sdl.vcxproj -> D:\GameDevelopment\Cpp\sfml-sdl2-cpp-games\brick-breaker-sdl\x64\Debug\brick-breaker-sdl.exe
