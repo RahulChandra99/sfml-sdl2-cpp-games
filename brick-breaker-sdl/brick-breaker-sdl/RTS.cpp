@@ -1,20 +1,38 @@
 #include <SDL2/SDL.h>
 #include <vector>
+#include <memory>
+#include <cmath>
+
+const int GRID_SIZE = 50;
 
 struct Unit {
     SDL_Rect rect; // Position and size
     bool selected = false;
-    int targetX = -1, targetY = -1;
+    float x, y;
+    float targetX = -1, targetY = -1;
+    float speed = 2.0f;
+
+    Unit(int startX, int startY) : x(startX), y(startY) {
+        rect = { startX, startY, GRID_SIZE, GRID_SIZE };
+    }
 
     void MoveTowardsTarget() {
         if (targetX != -1 && targetY != -1) {
-            int speed = 2;
-            if (rect.x < targetX) rect.x += speed;
-            else if (rect.x > targetX) rect.x -= speed;
-            if (rect.y < targetY) rect.y += speed;
-            else if (rect.y > targetY) rect.y -= speed;
+            float dx = targetX - x;
+            float dy = targetY - y;
+            float distance = sqrt(dx * dx + dy * dy);
 
-            if (abs(rect.x - targetX) < speed && abs(rect.y - targetY) < speed) {
+            if (distance > 1.0f) {
+                x += (dx / distance) * speed;
+                y += (dy / distance) * speed;
+                rect.x = static_cast<int>(x);
+                rect.y = static_cast<int>(y);
+            }
+            else {
+                x = targetX;
+                y = targetY;
+                rect.x = static_cast<int>(x);
+                rect.y = static_cast<int>(y);
                 targetX = -1;
                 targetY = -1;
             }
@@ -37,11 +55,11 @@ public:
         selectionBox.h = y - selectionBox.y;
     }
 
-    void EndSelection(std::vector<Unit>& units) {
+    void EndSelection(std::vector<std::unique_ptr<Unit>>& units) {
         isSelecting = false;
         NormalizeRect(selectionBox);
         for (auto& unit : units) {
-            unit.selected = SDL_HasIntersection(&selectionBox, &unit.rect);
+            unit->selected = SDL_HasIntersection(&selectionBox, &unit->rect);
         }
     }
 
@@ -67,26 +85,36 @@ private:
 class Game {
 public:
     bool isRunning;
-    SDL_Window* window;
-    SDL_Renderer* renderer;
-    std::vector<Unit> units;
+    std::unique_ptr<SDL_Window, decltype(&SDL_DestroyWindow)> window;
+    std::unique_ptr<SDL_Renderer, decltype(&SDL_DestroyRenderer)> renderer;
+    std::vector<std::unique_ptr<Unit>> units;
     SelectionManager selectionManager;
 
-    Game() : isRunning(false), window(nullptr), renderer(nullptr) {}
+    Game() : isRunning(false), window(nullptr, SDL_DestroyWindow), renderer(nullptr, SDL_DestroyRenderer) {}
 
     bool Init() {
         if (SDL_Init(SDL_INIT_VIDEO) < 0) return false;
-        window = SDL_CreateWindow("Unit Selection", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 600, SDL_WINDOW_SHOWN);
-        renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
+        window.reset(SDL_CreateWindow("Unit Selection", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 600, SDL_WINDOW_SHOWN));
+        renderer.reset(SDL_CreateRenderer(window.get(), -1, SDL_RENDERER_ACCELERATED));
         if (!window || !renderer) return false;
 
         // Create sample units
         for (int i = 0; i < 5; i++) {
-            units.push_back({ {100 + i * 60, 100, 40, 40} });
+            units.emplace_back(std::make_unique<Unit>(100 + i * GRID_SIZE, 100));
         }
 
         isRunning = true;
         return true;
+    }
+
+    void DrawGrid() {
+        SDL_SetRenderDrawColor(renderer.get(), 50, 50, 50, 255);
+        for (int i = 0; i < 800; i += GRID_SIZE) {
+            SDL_RenderDrawLine(renderer.get(), i, 0, i, 600);
+        }
+        for (int j = 0; j < 600; j += GRID_SIZE) {
+            SDL_RenderDrawLine(renderer.get(), 0, j, 800, j);
+        }
     }
 
     void HandleEvents() {
@@ -119,37 +147,42 @@ public:
     }
 
     void MoveSelectedUnits(int x, int y) {
+        x = (x / GRID_SIZE) * GRID_SIZE;
+        y = (y / GRID_SIZE) * GRID_SIZE;
+
+        int offset = 0;
         for (auto& unit : units) {
-            if (unit.selected) {
-                unit.targetX = x;
-                unit.targetY = y;
+            if (unit->selected) {
+                unit->targetX = x + (offset % 3) * GRID_SIZE;
+                unit->targetY = y + (offset / 3) * GRID_SIZE;
+                offset++;
             }
         }
     }
 
     void Update() {
         for (auto& unit : units) {
-            unit.MoveTowardsTarget();
+            unit->MoveTowardsTarget();
         }
     }
 
     void Render() {
-        SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
-        SDL_RenderClear(renderer);
+        SDL_SetRenderDrawColor(renderer.get(), 0, 0, 0, 255);
+        SDL_RenderClear(renderer.get());
+
+        DrawGrid();
 
         for (const auto& unit : units) {
-            SDL_SetRenderDrawColor(renderer, unit.selected ? 255 : 0, 0, unit.selected ? 0 : 255, 255);
-            SDL_RenderFillRect(renderer, &unit.rect);
+            SDL_SetRenderDrawColor(renderer.get(), unit->selected ? 255 : 0, 0, unit->selected ? 0 : 255, 255);
+            SDL_RenderFillRect(renderer.get(), &unit->rect);
         }
 
-        selectionManager.Draw(renderer);
+        selectionManager.Draw(renderer.get());
 
-        SDL_RenderPresent(renderer);
+        SDL_RenderPresent(renderer.get());
     }
 
     void Clean() {
-        SDL_DestroyRenderer(renderer);
-        SDL_DestroyWindow(window);
         SDL_Quit();
     }
 };

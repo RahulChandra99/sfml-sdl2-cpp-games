@@ -137,19 +137,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Ball.cpp" />
-    <ClCompile Include="Brick.cpp" />
     <ClCompile Include="dfs.cpp" />
-    <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Paddle.cpp" />
     <ClCompile Include="RTS.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Ball.h" />
-    <ClInclude Include="Brick.h" />
-    <ClInclude Include="Game.h" />
-    <ClInclude Include="Paddle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
